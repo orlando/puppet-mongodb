@@ -13,7 +13,7 @@ class mongodb::params {
       $datadir    = "${boxen::config::datadir}/mongodb"
       $executable = "${boxen::config::homebrewdir}/bin/mongod"
       $logdir     = "${boxen::config::logdir}/mongodb"
-      $port       = 17017
+      $port       = 27017
 
       $package    = 'boxen/brews/mongodb'
       $version    = '2.4.4-boxen1'
